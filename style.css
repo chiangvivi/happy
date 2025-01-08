@@ -1,0 +1,47 @@
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#dive-app {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dive {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dive-hide {
+    display: none !important;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a6c;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.loading img {
+    width: 10rem;
+    height: 10rem;
+}
